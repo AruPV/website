@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #204d74;
+    background-color: #63d9d5;
     color: white;
     padding: 20px;
     text-align: center;
@@ -21,16 +21,39 @@ main {
     align-items: center;
 }
 
-section {
+#lobster {
     background-color: white;
-    border: 1px solid #0077cc;
+    border: 10px solid #f9af93;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     margin-bottom: 20px;
     width: 80%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
 }
+
+#blueberries {
+    background-color: white;
+    border: 10px solid #5a73cc;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#whoopie {
+    background-color: white;
+    border: 10px solid #3c1f14;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
 
 iframe {
     max-width: 100%;
@@ -45,4 +68,15 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+#source {
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+li {
+    margin-left: 10%;
+    margin-right: 10%;
 }
