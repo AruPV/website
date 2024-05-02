@@ -58,29 +58,7 @@ main {
     align-items: center;
 }
 
-#lobster {
-    background-color: white;
-    border: 10px solid #f9af93;
-    padding: 20px;
-    border-radius: 50px;
-    margin-bottom: 20px;
-    width: 80%;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    text-align: center;
-}
-
-#blueberries {
-    background-color: white;
-    border: 10px solid #5a73cc;
-    padding: 20px;
-    border-radius: 50px;
-    margin-bottom: 20px;
-    width: 80%;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    text-align: center;
-}
-
-#whoopie {
+#Introduction {
     background-color: white;
     border: 10px solid #3c1f14;
     padding: 20px;
@@ -89,31 +67,4 @@ main {
     width: 80%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
-}
-
-
-iframe {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-footer {
-    background-color: #204d74;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-#source {
-    margin-left: 10%;
-    margin-right: 10%;
-
-}
-
-li {
-    margin-left: 10%;
-    margin-right: 10%;
 }
