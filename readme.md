@@ -1,5 +1,5 @@
 
-# HW 2: Webpage
+# HW 2: Website
 
 ***
 
