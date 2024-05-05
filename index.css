@@ -68,3 +68,52 @@ main {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
 }
+
+
+.maine-map {
+    background-image: url('maine-map.jpeg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    animation: map-animation 5s normal forwards;
+}
+
+@keyframes map-animation {
+    0% {
+        background-color:red;
+        width: 200px;
+        height: 200px;
+    }
+
+    14%{
+        background-color:orange;
+    }
+
+    28%{
+        background-color: yellow;
+    }
+
+    42%{
+        background-color: green;
+    }
+
+    56%{
+        background-color: aquamarine;
+    }
+
+    70%{
+        background-color:cyan;
+    }
+
+    84%{
+        background-color: purple;
+    }
+
+    100% {
+        width: 600px;
+        height: 600px;
+    }
+}
+

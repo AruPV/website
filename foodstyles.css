@@ -80,6 +80,17 @@ main {
     text-align: center;
 }
 
+#blueberries img{
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px; /* optional: round the corners of the image */
+    transition: transform 0.3s ease; 
+}
+
+#blueberries img:hover {
+    transform: scale(1.5); /* enlarges the image to 110% of its original size */
+}
+
 #whoopie {
     background-color: white;
     border: 10px solid #3c1f14;
