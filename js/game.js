@@ -2,7 +2,7 @@
 
 var love = 0;
 var love_per_click = 1;
-var love_per_sec = 1;
+var love_per_sec = 0;
 var calc_speed = 1000;
 
 // Available Buildings
