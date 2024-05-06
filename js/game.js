@@ -6,7 +6,6 @@ var title = document.getElementById("startup");
 var love = 0;
 var ppc = 1;
 var pps = 1;
-var game_worker = new Worker('love_counter.js');
 var game_start = false;
 
 function calculate_love() {
