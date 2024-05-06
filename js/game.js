@@ -77,7 +77,7 @@ function passive_love() {
 		setTimeout(passive_love,calc_speed/love_per_sec);
 	}
 	else{
-		change_love(love_per_sec);
+		change_love(love_per_sec/1000);
 		setTimeout(passive_love,1);
 	}
 }
