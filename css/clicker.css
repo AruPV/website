@@ -1,4 +1,6 @@
-
+body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 #navbar{
 	list-style-type: none;
 	margin: 0;
@@ -31,3 +33,61 @@ a{
 	background-color: #666666;
 	color: White;
 }
+
+#maine_button{
+	transition: transform .2s;
+}
+
+#maine_button:hover:not(:active){
+	transform: scale(1.1);	
+}
+
+#main_button:active{
+	transform: scale(1.05);	
+}
+
+#left_side{
+	display: inline-block;
+	text-align: center; 
+	border: 2px solid black;
+}
+
+#right_side{
+	border: 3px solid #73AD21;
+	padding: 5px;
+	width: 50%;
+	display: inline-block;
+}
+
+#shop {
+	display: inline-block;
+	width: 100%;
+}
+
+#shop tr:active{
+	background-color:lightgreen;
+}
+
+#shop tr:hover:not(:active){
+	background-color:lightblue;
+}
+
+.building.buyable:hover:not(:active){
+    background-color: #DDFFAA
+}
+
+.building.buyable:active{
+    background-color: #FFFFCC;
+}
+
+.building{
+	border: 1px solid lightgrey;
+	background-color: white;
+	transition: background-color .2s;
+}
+
+.building:not(.buyable){
+	background-color: lightgrey;
+}
+
+ 

@@ -12,40 +12,32 @@
 			<li><a href="day2.html">Nature!</a></li>
 		</ul>
 
-		<button id="love_btn"> I love maine sm &lt;3&lt;3&lt;3 </button>
-
-		<div id="startup">
-			<p id="title">Click this button some to start the game!</p> 
-			<br>
-			<label for="love_bar">Maine love bar: </legend>
-			<progress id="love_bar" max="100" value="0"> Maine Love Level </progress>
-			<p id="congrats"></p>
+		<div style="text-align: center" id="game_title">
+			<h1>Maine Clicker</h1>
 		</div>
 
-		<div id="game" style="visibility:hidden">
-			<p style="display:inline">Current Maine Love</p>
-			<p style="display:inline" id="counter">0</p>
+		<div style="padding-top: 40px; display:flex">
+			<span id="left_side"> 
+				<h3>Maine Click Associates</h3>
+				<p style="display: inline;">Maine Love: </p>
+				<h4 style="display: inline;" id="love_counter">0</h4>
+				<br>
+				<p style="display: inline;">Love-per-second: </p>
+				<h4 style="display: inline;" id="lps_counter">0</h4>
+				<br>
+				<img style="padding-top: 50px;padding-bottom: 10px;" id="maine_button" 
+					src="../assets/maine.png" 
+					alt="Maine Button" 
+					width="500" 
+					height="600"
+				>
+			</span>
 
-			<h2> Shop!</h2>
-
-			<table id="shop">
-				<tr>
-					<th>Upgrade</th>
-					<th>Cost</th>
-					<th>Count</th>
-				</tr>
-				<tr>
-					<td><button id="up_stan">Maine Stan</button></td>
-					<td>10 LovePoints</td>
-					<td id="ct_stan">0</td>
-				</tr>
-				<tr>
-					<td><button id="up_resident">Maine Resident</button></td>
-					<td>100 LovePoints</td>
-					<td id="ct_resident">0</td>
-				</tr>
-			</ul>
+			<span id="right_side">
+				<h2> Shop!</h2>
+			</span>
 		</div>
+
 
 	</body>
 	<script src="../js/game.js"></script>
