@@ -11,6 +11,7 @@ var res_count = 0;
 var stan_count = 0
 var calc_speed = 1000;
 
+
 function calculate_love() {
 	if (calc_speed/pps > 1){
 		love += 1;
@@ -44,6 +45,20 @@ document.getElementById("love_btn").addEventListener("click", function(){
 	counter.innerHTML = love;
 
 });
+
+// BUILDINGS
+
+var residents = {
+	count: 0,
+	cost: 100,
+	value: 10
+}
+
+var stan = {
+	count: 0,
+	cost: 10,
+	value: 1
+}
 
 document.getElementById("up_stan").addEventListener("click", function(){
 
