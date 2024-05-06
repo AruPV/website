@@ -69,7 +69,10 @@ function change_passive_love(amount){
 }
 
 function passive_love() {
-	if (calc_speed/love_per_sec > 1){
+	if (love_per_sec == 0){
+		setTimeout(passive_love,calc_speed);
+	}
+	else if (calc_speed/love_per_sec > 1){
 		change_love(1);
 		setTimeout(passive_love,calc_speed/love_per_sec);
 	}
