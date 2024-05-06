@@ -7,8 +7,6 @@ var love = 0;
 var ppc = 1;
 var pps = 1;
 var game_start = false;
-var res_count = 0;
-var stan_count = 0
 var calc_speed = 1000;
 
 
@@ -48,7 +46,7 @@ document.getElementById("love_btn").addEventListener("click", function(){
 
 // BUILDINGS
 
-var residents = {
+var resident = {
 	count: 0,
 	cost: 100,
 	value: 10
@@ -62,23 +60,23 @@ var stan = {
 
 document.getElementById("up_stan").addEventListener("click", function(){
 
-	if(love>=10){
+	if(love>=stan.cost){
 		love -= 10;
 		counter.innerHTML = love;
-		stan_count ++;
-		document.getElementById("ct_stan").innerHTML = stan_count;
-		pps += 1;
+		stan.count ++;
+		document.getElementById("ct_stan").innerHTML = stan.count;
+		pps += stan.count;
 	}
 
 });
 			
 document.getElementById("up_resident").addEventListener("click", function(){
 
-	if(love>=100){
-		love -= 100;
+	if(love>=resident.cost){
+		love -= resident.cost;
 		counter.innerHTML = love;
-		res_count ++;
-		document.getElementById("ct_resident").innerHTML = res_count;
+		resident.count ++;
+		document.getElementById("ct_resident").innerHTML = resident.count;
 		pps += 10;
 	}
 
