@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+
+		<ul id="navbar">
+			<li class="active"><a href="index.html">Home</a></li>
+			<li><a href="food.html">Food</a></li>
+			<li><a href="clicker.html">Game!</a></li>
+		</ul>
+
+		<button id="love_btn"> I love maine sm &lt;3&lt;3&lt;3 </button>
+
+		<div id="startup">
+			<p id="title">Click this button some to start the game!</p> 
+			<br>
+			<label for="love_bar">Maine love bar: </legend>
+			<progress id="love_bar" max="100" value="0"> Maine Love Level </progress>
+			<p id="congrats"></p>
+		</div>
+
+		<div id="game" style="visibility:hidden">
+			<p style="display:inline">Current Maine Love</p>
+			<p style="display:inline" id="counter">0</p>
+		</div>
+
+	</body>
+	<script src="./js/game.js"></script>
+</html>

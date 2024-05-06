@@ -71,7 +71,7 @@ main {
 
 
 .maine-map {
-    background-image: url('maine-map.jpeg');
+    background-image: url('assets/maine-map.jpeg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
