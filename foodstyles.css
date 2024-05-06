@@ -1,0 +1,130 @@
+#navbar{
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+    border: 2px solid #DDDDDD;
+    padding: 5px;
+    border-radius: 4px;
+	background-color: #EEEEEE;
+	align-items: center;
+}
+#navbar li{
+	font-family: Helvetica, sans-serif;
+	float: center;
+	display: inline;
+	color: Black;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+a{
+	text-decoration: none;
+}
+
+#navbar li:hover a{
+	color: inherit;
+}
+
+#navbar li:hover:not(.active){
+	background-color: #666666;
+	color: White;
+}
+
+.active{
+	background-color: #CCCC99;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #63d9d5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lobster {
+    background-color: white;
+    border: 10px solid #f9af93;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#blueberries {
+    background-color: white;
+    border: 10px solid #5a73cc;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#blueberries img{
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px; /* optional: round the corners of the image */
+    transition: transform 0.3s ease; 
+}
+
+#blueberries img:hover {
+    transform: scale(1.5); /* enlarges the image to 110% of its original size */
+}
+
+#whoopie {
+    background-color: white;
+    border: 10px solid #3c1f14;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+
+iframe {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #204d74;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#source {
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+li {
+    margin-left: 10%;
+    margin-right: 10%;
+}

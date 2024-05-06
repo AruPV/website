@@ -1,0 +1,119 @@
+#navbar{
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+    border: 2px solid #DDDDDD;
+    padding: 5px;
+    border-radius: 4px;
+	background-color: #EEEEEE;
+	align-items: center;
+}
+#navbar li{
+	font-family: Helvetica, sans-serif;
+	float: center;
+	display: inline;
+	color: Black;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+a{
+	text-decoration: none;
+}
+
+#navbar li:hover a{
+	color: inherit;
+}
+
+#navbar li:hover:not(.active){
+	background-color: #666666;
+	color: White;
+}
+
+.active{
+	background-color: #CCCC99;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #63d9d5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Introduction {
+    background-color: white;
+    border: 10px solid #3c1f14;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+
+.maine-map {
+    background-image: url('maine-map.jpeg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    animation: map-animation 5s normal forwards;
+}
+
+@keyframes map-animation {
+    0% {
+        background-color:red;
+        width: 200px;
+        height: 200px;
+    }
+
+    14%{
+        background-color:orange;
+    }
+
+    28%{
+        background-color: yellow;
+    }
+
+    42%{
+        background-color: green;
+    }
+
+    56%{
+        background-color: aquamarine;
+    }
+
+    70%{
+        background-color:cyan;
+    }
+
+    84%{
+        background-color: purple;
+    }
+
+    100% {
+        width: 600px;
+        height: 600px;
+    }
+}
+
