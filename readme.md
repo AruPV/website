@@ -3,7 +3,7 @@
 
 ***
 
-DCS-229A: Data Structures and Algorithms
+Short term!
 Students:
  * Leith Chikh Rouhou
  * Jing Fang
